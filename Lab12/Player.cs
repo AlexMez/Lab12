@@ -13,6 +13,8 @@ namespace Lab12
         string Roshambo;
 
         public abstract string GetRoshambo();
+
+        //public abstract string GetRoshambo(int count);
         
     }
 }

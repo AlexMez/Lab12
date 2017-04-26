@@ -73,7 +73,7 @@ namespace Lab12
         public static string GetValidString()
         {
             string Input = Console.ReadLine().ToLower();
-            // Validate Input
+           
             //while ((string.IsNullOrEmpty(Input)) || (string.IsNullOrWhiteSpace(Input)) || (!(Input == "rock")) || (!(Input == "scissors")) || (!(Input == "paper"))) //you can add more ifs to this or compare with a string.
 
             //{
@@ -81,7 +81,7 @@ namespace Lab12
             //    Console.WriteLine();
             //    Console.Write("You Must Enter a Word  ---> 'rock' 'paper' or 'scissors'  ");
             //    //Console.ForegroundColor = ConsoleColor.Green;
-            //    Input = Console.ReadLine().ToLower(); ;
+            //    Input = Console.ReadLine().ToLower(); 
             //}
             return Input;
         }
